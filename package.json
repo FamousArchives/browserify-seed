@@ -1,0 +1,27 @@
+{
+  "name": "browserify-seed",
+  "version": "0.2.2",
+  "description": "seed for a browserified version of famous",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "npm run-script lint --loglevel silent",
+    "build": "browserify src/index.js -t cssify -t brfs -o static/bundle.js",
+    "watch": "watchify src/index.js -t cssify -t brfs -o static/bundle.js --debug --verbose",
+    "lint-eslint": "./node_modules/.bin/eslint src/",
+    "lint-jscs": "./node_modules/.bin/jscs src/",
+    "lint": "npm run-script lint-eslint; npm run-script lint-jscs"
+  },
+  "devDependencies": {
+    "eslint": "^0.6.2",
+    "jscs": "^1.5.7",
+    "watchify": "^0.10.2"
+  },
+  "author": "TheAlphaNerd",
+  "license": "ISC",
+  "dependencies": {
+    "brfs": "^1.1.1",
+    "cssify": "^0.5.1",
+    "polyfills": "famous/polyfills",
+    "famous": "http://code.famo.us/famous/common/famous-0.2.2.tar.gz"
+  }
+}
