@@ -4,12 +4,12 @@
   "description": "seed for a browserified version of famous",
   "main": "src/index.js",
   "scripts": {
-    "test": "npm run-script lint --loglevel silent",
+    "test": "npm run lint -s",
     "build": "browserify src/index.js -t cssify -t brfs -o static/bundle.js",
     "watch": "watchify src/index.js -t cssify -t brfs -o static/bundle.js --debug --verbose",
-    "lint-eslint": "./node_modules/.bin/eslint src/",
-    "lint-jscs": "./node_modules/.bin/jscs src/",
-    "lint": "npm run-script lint-eslint; npm run-script lint-jscs"
+    "lint-eslint": "eslint src/",
+    "lint-jscs": "jscs src/",
+    "lint": "npm run lint-eslint; npm run lint-jscs"
   },
   "devDependencies": {
     "eslint": "^0.6.2",
@@ -21,7 +21,7 @@
   "dependencies": {
     "brfs": "^1.1.1",
     "cssify": "^0.5.1",
-    "polyfills": "famous/polyfills",
+    "famous-polyfills": "famous/polyfills",
     "famous": "http://code.famo.us/famous/common/famous-0.2.2.tar.gz"
   }
 }
