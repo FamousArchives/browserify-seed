@@ -9,7 +9,7 @@
 npm install -g browserify watchify # first install browserify and watchify
 git clone https://github.com/Famous/browserify-seed
 # rm -rf .git # optionally remove git history
-npm instal # install dependencies
+npm install # install dependencies
 ```
 
 ---
