@@ -21,7 +21,7 @@
   "dependencies": {
     "brfs": "^1.1.1",
     "cssify": "^0.5.1",
-    "famous-polyfills": "famous/polyfills",
-    "famous": "http://code.famo.us/famous/common/famous-0.2.2.tar.gz"
+    "famous": "^0.2.2",
+    "famous-polyfills": "^0.2.2"
   }
 }
