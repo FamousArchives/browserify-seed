@@ -12,16 +12,17 @@
     "lint": "npm run lint-eslint; npm run lint-jscs"
   },
   "devDependencies": {
-    "eslint": "^0.6.2",
-    "jscs": "^1.5.7",
-    "watchify": "^0.10.2"
+    "eslint": "^0.7.4",
+    "jscs": "^1.5.8"
   },
   "author": "TheAlphaNerd",
   "license": "ISC",
   "dependencies": {
     "brfs": "^1.1.1",
+    "browserify": "^5.9.1",
     "cssify": "^0.5.1",
     "famous": "^0.2.2",
-    "famous-polyfills": "^0.2.2"
+    "famous-polyfills": "^0.2.2",
+    "watchify": "^1.0.1"
   }
 }
