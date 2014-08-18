@@ -4,6 +4,7 @@
   "description": "seed for a browserified version of famous",
   "main": "src/index.js",
   "scripts": {
+    "clean": "rm static/bundle.js",
     "test": "npm run lint -s",
     "build": "browserify src/index.js -t cssify -t brfs -o static/bundle.js",
     "watch": "watchify src/index.js -t cssify -t brfs -o static/bundle.js --debug --verbose",
