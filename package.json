@@ -15,7 +15,7 @@
     "start-dev": "forever start -a --uid \"kerouac-dev\" server.js && npm run watch",
     "stop-dev": "forever stop \"kerouac-dev\"",
     "test": "npm run lint -s && npm run build",
-    "build": "browserify src/index.js -o public/bundle.js",
+    "build": "browserify src/index.js | uglifyjs > public/bundle.js",
     "watch": "watchify src/index.js -o public/bundle.js --debug --verbose",
     "lint-eslint": "eslint src/",
     "lint-jscs": "jscs src/",
@@ -35,6 +35,7 @@
     "famous-polyfills": "^0.2.2",
     "forever": "^0.11.1",
     "hapi": "^6.5.1",
+    "uglify-js": "^2.4.15",
     "watchify": "^1.0.1"
   }
 }
