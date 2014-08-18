@@ -10,7 +10,7 @@
 ```bash
 npm install -g browserify watchify # first install browserify and watchify
 git clone https://github.com/Famous/browserify-seed
-# rm -rf .git # optionally remove git history
+\# rm -rf .git && git init # optionally reset git history
 npm install # install dependencies
 ```
 
