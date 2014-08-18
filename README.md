@@ -25,12 +25,11 @@ Run the linters with ```npm run-script lint```
 
 Run All Tests with ```npm test```
 
+---
+
 ###Production
 Start production server with ```npm start```
 
 Stop production server with ```npm stop```
 
----
-
-###Production
-Build the deployable static assets with ```npm run-script build```
+You can also build the payload with ```npm run build```
