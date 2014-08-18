@@ -4,10 +4,10 @@
   "description": "seed for a browserified version of famous",
   "main": "src/index.js",
   "scripts": {
-    "clean": "rm static/bundle.js",
+    "clean": "rm public/bundle.js",
     "test": "npm run lint -s && npm run build",
-    "build": "browserify src/index.js -t cssify -t brfs -o static/bundle.js",
-    "watch": "watchify src/index.js -t cssify -t brfs -o static/bundle.js --debug --verbose",
+    "build": "browserify src/index.js -t cssify -t brfs -o public/bundle.js",
+    "watch": "watchify src/index.js -t cssify -t brfs -o public/bundle.js --debug --verbose",
     "lint-eslint": "eslint src/",
     "lint-jscs": "jscs src/",
     "lint": "npm run lint-eslint && npm run lint-jscs"
@@ -24,6 +24,8 @@
     "cssify": "^0.5.1",
     "famous": "^0.2.2",
     "famous-polyfills": "^0.2.2",
+    "forever": "^0.11.1",
+    "hapi": "^6.5.1",
     "watchify": "^1.0.1"
   }
 }
