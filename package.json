@@ -4,6 +4,7 @@
   "description": "seed for a browserified version of famous",
   "main": "src/index.js",
   "scripts": {
+    "start": "npm run clean && npm run build && forever server.js",
     "clean": "rm public/bundle.js",
     "test": "npm run lint -s && npm run build",
     "build": "browserify src/index.js -t cssify -t brfs -o public/bundle.js",
