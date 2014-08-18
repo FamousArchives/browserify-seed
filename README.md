@@ -17,9 +17,18 @@ npm install # install dependencies
 ---
 
 ###Development
-Run the dev server with ```npm run-script watch```
+Run the dev server with ```npm run start-dev```
 
-Run the linters with ```npm test```
+Stop the dev serve with  ``` npm run stop-dev```
+
+Run the linters with ```npm run-script lint```
+
+Run All Tests with ```npm test```
+
+###Production
+Start production server with ```npm start```
+
+Stop production server with ```npm stop```
 
 ---
 
