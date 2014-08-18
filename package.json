@@ -2,7 +2,7 @@
   "name": "browserify-seed",
   "version": "0.2.2",
   "description": "seed for a browserified version of famous",
-  "main": "src/index.js",
+  "main": "server.js",
   "scripts": {
     "start": "npm run clean && npm run build && forever server.js",
     "clean": "rm public/bundle.js",
