@@ -2,7 +2,8 @@
   "name": "browserify-seed",
   "version": "0.2.2",
   "description": "seed for a browserified version of famous",
-  "main": "server.js",
+  "browser": "src/index.js",
+  "main": "plugin.js",
   "browserify": {
     "transform": [
       "cssify",
