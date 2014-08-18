@@ -5,7 +5,7 @@
   "main": "src/index.js",
   "scripts": {
     "clean": "rm static/bundle.js",
-    "test": "npm run lint -s",
+    "test": "npm run lint -s && npm run build",
     "build": "browserify src/index.js -t cssify -t brfs -o static/bundle.js",
     "watch": "watchify src/index.js -t cssify -t brfs -o static/bundle.js --debug --verbose",
     "lint-eslint": "eslint src/",
