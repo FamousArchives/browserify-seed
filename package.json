@@ -3,14 +3,20 @@
   "version": "0.2.2",
   "description": "seed for a browserified version of famous",
   "main": "server.js",
+  "browserify": {
+    "transform": [
+      "cssify",
+      "brfs"
+    ]
+  },
   "scripts": {
     "start": "npm run build && forever start -a --uid \"kerouac\" server.js",
     "stop": "forever stop \"kerouac\"",
     "start-dev": "forever start -a --uid \"kerouac-dev\" server.js && npm run watch",
     "stop-dev": "forever stop \"kerouac-dev\"",
     "test": "npm run lint -s && npm run build",
-    "build": "browserify src/index.js -t cssify -t brfs -o public/bundle.js",
-    "watch": "watchify src/index.js -t cssify -t brfs -o public/bundle.js --debug --verbose",
+    "build": "browserify src/index.js -o public/bundle.js",
+    "watch": "watchify src/index.js -o public/bundle.js --debug --verbose",
     "lint-eslint": "eslint src/",
     "lint-jscs": "jscs src/",
     "lint": "npm run lint-eslint && npm run lint-jscs"
