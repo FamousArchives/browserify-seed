@@ -4,8 +4,10 @@
   "description": "seed for a browserified version of famous",
   "main": "server.js",
   "scripts": {
-    "start": "npm run clean && npm run build && forever server.js",
-    "clean": "rm public/bundle.js",
+    "start": "npm run build && forever start -a --uid \"kerouac\" server.js",
+    "stop": "forever stop \"kerouac\"",
+    "start-dev": "forever start -a --uid \"kerouac-dev\" server.js && npm run watch",
+    "stop-dev": "forever stop \"kerouac-dev\"",
     "test": "npm run lint -s && npm run build",
     "build": "browserify src/index.js -t cssify -t brfs -o public/bundle.js",
     "watch": "watchify src/index.js -t cssify -t brfs -o public/bundle.js --debug --verbose",
