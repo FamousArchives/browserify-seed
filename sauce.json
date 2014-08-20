@@ -1,0 +1,17 @@
+[
+    {
+        "browserName": "firefox",
+        "platform": "Linux",
+        "version": "31"
+    },
+    {
+        "browserName": "android",
+        "platform": "Linux",
+        "version": "4.4"
+    },
+    {
+        "browserName": "chrome",
+        "platform": "Linux",
+        "version": "36"
+    }
+]
