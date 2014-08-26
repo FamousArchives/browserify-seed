@@ -11,10 +11,8 @@
     ]
   },
   "scripts": {
-    "start": "npm run build && forever start -a --uid \"kerouac\" server.js",
-    "stop": "forever stop \"kerouac\"",
-    "start-dev": "forever start -a --uid \"kerouac-dev\" server.js && npm run watch",
-    "stop-dev": "forever stop \"kerouac-dev\"",
+    "start": "npm run build && node server.js",
+    "start-dev": "npm run watch & npm start",
     "test": "npm run lint -s && npm run build",
     "build": "browserify src/index.js | uglifyjs > public/bundle.js",
     "watch": "watchify src/index.js -o public/bundle.js --debug --verbose",
@@ -34,7 +32,6 @@
     "cssify": "^0.6.0",
     "famous": "^0.2.2",
     "famous-polyfills": "^0.2.2",
-    "forever": "^0.11.1",
     "hapi": "^6.5.1",
     "uglify-js": "^2.4.15",
     "watchify": "^1.0.1"
