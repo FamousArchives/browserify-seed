@@ -10,8 +10,8 @@
 ```bash
 npm install -g browserify watchify # first install browserify and watchify
 git clone https://github.com/Famous/browserify-seed
-\# rm -rf .git && git init # optionally reset git history
-npm install # install dependencies
+\# rm -rf .git && git init && git commit -m "Make it so" # optionally reset git history
+npm i # install dependencies
 ```
 
 ---
