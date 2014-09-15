@@ -12,7 +12,7 @@
   },
   "scripts": {
     "start": "npm run build && node server.js",
-    "start-dev": "npm run watch & npm start",
+    "start-dev": "npm run watch & node server.js",
     "test": "npm run lint -s && npm run build",
     "build": "browserify src/index.js | uglifyjs > public/bundle.js",
     "watch": "watchify src/index.js -o public/bundle.js --debug --verbose",
