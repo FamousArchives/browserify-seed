@@ -22,7 +22,7 @@
     "lint": "npm run lint-eslint && npm run lint-jscs"
   },
   "devDependencies": {
-    "eslint": "^0.8.1",
+    "eslint": "^0.8.2",
     "jscs": "^1.5.8"
   },
   "author": "TheAlphaNerd",
@@ -31,8 +31,8 @@
     "brfs": "^1.1.1",
     "browserify": "^5.9.1",
     "cssify": "^0.6.0",
-    "famous": "Famous/famous#v0.3.0-alpha",
-    "famous-polyfills": "^0.2.2",
+    "famous": "^0.3.0-rc",
+    "famous-polyfills": "^0.3.0",
     "famousify": "^0.1.4",
     "hapi": "^6.5.1",
     "uglify-js": "^2.4.15",
