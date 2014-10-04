@@ -29,7 +29,7 @@
   "license": "ISC",
   "dependencies": {
     "brfs": "^1.1.1",
-    "browserify": "^5.9.1",
+    "browserify": "^6.0.2",
     "cssify": "^0.6.0",
     "famous": "^0.3.0-rc",
     "famous-polyfills": "^0.3.0",
