@@ -1,6 +1,6 @@
 {
   "name": "browserify-seed",
-  "version": "0.3.0-rc",
+  "version": "0.3.0",
   "description": "seed for a browserified version of famous",
   "browser": "src/index.js",
   "main": "plugin.js",
