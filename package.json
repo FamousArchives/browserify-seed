@@ -36,6 +36,6 @@
     "famousify": "^0.1.5",
     "hapi": "^6.5.1",
     "uglify-js": "^2.4.15",
-    "watchify": "^1.0.1"
+    "watchify": "^2.0.0"
   }
 }
