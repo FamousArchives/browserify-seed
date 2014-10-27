@@ -23,13 +23,14 @@
   },
   "devDependencies": {
     "eslint": "^0.9.1",
-    "jscs": "^1.5.8"
+    "jscs": "^1.7.3",
+    "watchify": "^2.1.0"
   },
   "author": "TheAlphaNerd",
   "license": "ISC",
   "dependencies": {
-    "brfs": "^1.1.1",
-    "browserify": "^6.0.2",
+    "brfs": "^1.2.0",
+    "browserify": "^6.2.0",
     "cssify": "^0.6.0",
     "famous": "^0.3.0",
     "famous-polyfills": "^0.3.0",
