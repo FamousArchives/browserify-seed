@@ -35,7 +35,7 @@
     "brfs": "^1.2.0",
     "cssify": "^0.6.0",
     "deamdify": "^0.1.1",
-    "famous": "^0.3.0",
+    "famous": "^0.3.1",
     "famous-polyfills": "^0.3.0",
     "famousify": "^0.1.5"
   }
