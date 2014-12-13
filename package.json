@@ -37,6 +37,7 @@
     "deamdify": "^0.1.1",
     "famous": "^0.3.1",
     "famous-polyfills": "^0.3.0",
-    "famousify": "^0.1.5"
+    "famousify": "^0.1.5",
+    "watchify": "^2.2.1"
   }
 }
