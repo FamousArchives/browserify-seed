@@ -35,7 +35,6 @@
     "cssify": "^0.6.0",
     "famous": "^0.3.4",
     "famous-polyfills": "^0.3.0",
-    "famousify": "^0.1.5",
-    "watchify": "^2.2.1"
+    "famousify": "^0.1.5"
   }
 }
