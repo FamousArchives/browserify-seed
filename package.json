@@ -21,8 +21,8 @@
     "lint": "npm run lint-eslint && npm run lint-jscs"
   },
   "devDependencies": {
-    "browserify": "^7.0.0",
-    "eslint": "^0.10.0",
+    "browserify": "^8.0.3",
+    "eslint": "^0.11.0",
     "jscs": "^1.7.3",
     "serve": "^1.4.0",
     "uglify-js": "^2.4.15",
@@ -33,7 +33,7 @@
   "dependencies": {
     "brfs": "^1.2.0",
     "cssify": "^0.6.0",
-    "famous": "0.3.3",
+    "famous": "^0.3.4",
     "famous-polyfills": "^0.3.0",
     "famousify": "^0.1.5",
     "watchify": "^2.2.1"
