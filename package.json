@@ -3,6 +3,7 @@
   "version": "0.8.2",
   "description": "seed for a browserified version of famous",
   "main": "src/index.js",
+  "repository": "https://github.com/Famous/browserify-seed/",
   "browserify": {
     "transform": [
       "famousify",
