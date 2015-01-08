@@ -21,6 +21,6 @@ Run the dev server with ```npm run start-dev```
 
 Now the dev server should run on localhost:1337
 
-Run the linters with ```npm run-script lint```
+Run the linters with ```npm run lint```
 
 Run All Tests with ```npm test```
