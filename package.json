@@ -1,6 +1,6 @@
 {
   "name": "browserify-seed",
-  "version": "0.8.2",
+  "version": "0.8.3",
   "description": "seed for a browserified version of famous",
   "main": "src/index.js",
   "repository": "https://github.com/Famous/browserify-seed/",
