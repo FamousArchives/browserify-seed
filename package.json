@@ -13,7 +13,7 @@
   },
   "scripts": {
     "start": "npm run build && serve public/ -p 1337",
-    "start-dev": "npm run watch & serve public/ -p 1337",
+    "start-dev": "npm run watch & browser-sync start --server public/ --port 1337 --files 'public/**/*.*'",
     "test": "npm run lint -s && npm run build",
     "build": "browserify src/index.js | uglifyjs > public/bundle.js",
     "watch": "watchify src/index.js -o public/bundle.js --debug --verbose",
@@ -22,6 +22,7 @@
     "lint": "npm run lint-eslint && npm run lint-jscs"
   },
   "devDependencies": {
+    "browser-sync": "^2.1.6",
     "browserify": "^8.0.3",
     "eslint": "^0.13.0",
     "jscs": "^1.7.3",
