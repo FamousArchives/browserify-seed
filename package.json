@@ -24,7 +24,7 @@
   "devDependencies": {
     "browser-sync": "^2.1.6",
     "browserify": "^8.0.3",
-    "eslint": "^0.13.0",
+    "eslint": "^0.14.1",
     "jscs": "^1.7.3",
     "serve": "^1.4.0",
     "uglify-js": "^2.4.15",
